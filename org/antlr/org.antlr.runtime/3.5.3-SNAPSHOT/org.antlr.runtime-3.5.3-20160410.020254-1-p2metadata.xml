@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.antlr.runtime' version='3.5.3.201604100202' singleton='false'>
+    <update id='org.antlr.runtime' range='[0.0.0,3.5.3.201604100202)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='org.antlr.runtime'/>
+      <property name='maven-groupId' value='org.antlr'/>
+      <property name='maven-artifactId' value='org.antlr.runtime'/>
+      <property name='maven-version' value='3.5.3-SNAPSHOT'/>
+    </properties>
+    <provides size='7'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.antlr.runtime' version='3.5.3.201604100202'/>
+      <provided namespace='osgi.bundle' name='org.antlr.runtime' version='3.5.3.201604100202'/>
+      <provided namespace='java.package' name='org.antlr.runtime' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.runtime.debug' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.runtime.misc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.antlr.runtime.tree' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.antlr.runtime' version='3.5.3.201604100202'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.antlr.runtime&#xA;Bundle-Version: 3.5.3.201604100202&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
