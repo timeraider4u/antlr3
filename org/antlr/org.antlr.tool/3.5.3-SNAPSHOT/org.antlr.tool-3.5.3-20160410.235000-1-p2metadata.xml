@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='org.antlr.tool' version='3.5.3.201604102347' singleton='false'>
+    <update id='org.antlr.tool' range='[0.0.0,3.5.3.201604102347)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='org.antlr.tool'/>
+      <property name='maven-groupId' value='org.antlr'/>
+      <property name='maven-artifactId' value='org.antlr.tool'/>
+      <property name='maven-version' value='3.5.3-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.antlr.tool' version='3.5.3.201604102347'/>
+      <provided namespace='osgi.bundle' name='org.antlr.tool' version='3.5.3.201604102347'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.antlr.tool' version='3.5.3.201604102347'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.antlr.tool&#xA;Bundle-Version: 3.5.3.201604102347&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
