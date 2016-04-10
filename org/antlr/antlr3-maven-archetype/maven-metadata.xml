@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.antlr</groupId>
+  <artifactId>antlr3-maven-archetype</artifactId>
+  <versioning>
+    <versions>
+      <version>3.5.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160410013442</lastUpdated>
+  </versioning>
+</metadata>
