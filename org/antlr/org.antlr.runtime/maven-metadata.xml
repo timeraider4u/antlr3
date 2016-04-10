@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.antlr</groupId>
+  <artifactId>org.antlr.runtime</artifactId>
+  <versioning>
+    <versions>
+      <version>3.5.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20160410013730</lastUpdated>
+  </versioning>
+</metadata>
