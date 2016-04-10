@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>ANTLR 3 Maven plugin</name>
+      <prefix>antlr3</prefix>
+      <artifactId>antlr3-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
