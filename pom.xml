@@ -48,6 +48,7 @@
         <module>antlr3-maven-archetype</module>
         <module>antlr-complete</module>
 		 -->
+		<module>antlr-runtime</module>
         <module>org.antlr.runtime</module>
         <module>org.antlr.feature</module>
         <module>org.antlr.updatesite</module>

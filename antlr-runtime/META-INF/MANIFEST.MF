@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: antlr-runtime
+Bundle-SymbolicName: antlr-runtime
+Bundle-Version: 3.5.3.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.antlr.stringtemplate;bundle-version="3.5.3";visibility:=reexport
+Export-Package: org.antlr.runtime,
+ org.antlr.runtime.debug,
+ org.antlr.runtime.misc,
+ org.antlr.runtime.tree
