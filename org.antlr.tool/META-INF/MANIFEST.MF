@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.antlr.tool
+Bundle-SymbolicName: org.antlr.tool
+Bundle-Version: 3.5.3.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: org.antlr,
+ org.antlr.analysis,
+ org.antlr.codegen,
+ org.antlr.misc,
+ org.antlr.tool,
+ org.antlr.grammar.v3
+ org.stringtemplate.v4,
+ org.stringtemplate.v4.compiler,
+ org.stringtemplate.v4.debug,
+ org.stringtemplate.v4.gui,
+ org.stringtemplate.v4.misc
+ 

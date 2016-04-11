@@ -185,7 +185,7 @@ Jim Idle - March 2009
           -->
         <dependency>
             <groupId>org.antlr</groupId>
-            <artifactId>antlr</artifactId>
+            <artifactId>org.antlr.tool</artifactId>
             <version>${project.version}</version>
         </dependency>
 

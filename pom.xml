@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+		<!--
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
         <version>9</version>
     </parent>
+	-->
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.antlr</groupId>
@@ -37,6 +39,7 @@
     -->
 
     <modules>
+		 <!--
         <module>runtime/Java</module>
         <module>tool</module>
         <module>antlr3-maven-plugin</module>
@@ -44,9 +47,13 @@
         <module>gunit-maven-plugin</module>
         <module>antlr3-maven-archetype</module>
         <module>antlr-complete</module>
+		 -->
         <module>org.antlr.runtime</module>
         <module>org.antlr.feature</module>
         <module>org.antlr.updatesite</module>
+		  <module>org.antlr.stringtemplate</module>
+        <module>org.antlr.tool</module>
+
     </modules>
 
   <!--
@@ -55,12 +62,14 @@
     -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		  <!--
         <java5.home>${env.JAVA5_HOME}</java5.home>
         <java6.home>${env.JAVA6_HOME}</java6.home>
         <bootclasspath.java5>${java5.home}/lib/rt.jar</bootclasspath.java5>
         <bootclasspath.java6>${java6.home}/lib/rt.jar</bootclasspath.java6>
         <bootclasspath.compile>${bootclasspath.java5}</bootclasspath.compile>
         <bootclasspath.testCompile>${bootclasspath.java6}</bootclasspath.testCompile>
+		  -->
 			<github.global.server>github</github.global.server>
 			<tycho.version>0.24.0</tycho.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -93,49 +102,7 @@
         <developerConnection>scm:git:git@github.com:antlr/antlr3.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
-  <!--
 
-    Tell Maven which other artifacts we need in order to
-    build, run and test the ANTLR jars.
-    This is the master pom, and so it only contains those
-    dependencies that are common to all the modules below
-    or are just included for test
-    -->
-    <dependencyManagement>
-
-        <dependencies>
-
-            <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.10</version>
-                <scope>test</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>antlr</groupId>
-                <artifactId>antlr</artifactId>
-                <version>2.7.7</version>
-                <scope>compile</scope>
-            </dependency>
-
-            <dependency>
-              <groupId>org.antlr</groupId>
-              <artifactId>stringtemplate</artifactId>
-              <version>3.2.1</version>
-              <scope>compile</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.antlr</groupId>
-                <artifactId>ST4</artifactId>
-                <version>4.0.8</version>
-                <scope>compile</scope>
-            </dependency>
-
-        </dependencies>
-
-    </dependencyManagement>
 	 
 	 <repositories>
 		<repository>
@@ -152,56 +119,39 @@
 				<updatePolicy>daily</updatePolicy>
 			</releases>
 		</repository>
+		<repository>
+			<id>Antlr3-eclipse</id>
+			<name>Antlr3 eclipse repository</name>
+			<layout>p2</layout>
+			<url>http://timeraider4u.github.io/antlr3/</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+			</releases>
+		</repository>
+		<repository>
+			<id>Antlr3-maven</id>
+			<name>Antlr3 maven repository</name>
+			<layout>default</layout>
+			<url>http://raw.github.com/timeraider4u/antlr3/mvn-repo</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>daily</updatePolicy>
+			</releases>
+		</repository>
 	</repositories>
 
-    <profiles>
-        <profile>
-            <id>sonatype-oss-release</id>
-            <modules>
-                <module>antlr-complete</module>
-            </modules>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-compiler-plugin</artifactId>
-                        <executions>
-                            <execution>
-                                <id>default-compile</id>
-                                <configuration>
-                                    <source>1.5</source>
-                                    <target>1.5</target>
-                                    <compilerArgs>
-                                        <arg>-Xlint</arg>
-                                        <arg>-Xlint:-serial</arg>
-                                        <arg>-bootclasspath</arg>
-                                        <arg>${bootclasspath.compile}</arg>
-                                    </compilerArgs>
-                                </configuration>
-                            </execution>
-                            <execution>
-                                <id>default-testCompile</id>
-                                <configuration>
-                                    <source>1.6</source>
-                                    <target>1.6</target>
-                                    <compilerArgs>
-                                        <arg>-Xlint</arg>
-                                        <arg>-Xlint:-serial</arg>
-                                        <arg>-bootclasspath</arg>
-                                        <arg>${bootclasspath.testCompile}</arg>
-                                    </compilerArgs>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
+    
 
     <build>
-
-        <defaultGoal>install</defaultGoal>
 
         <!--
             The following filter definition means that both the master
@@ -215,19 +165,14 @@
             build here. However each module also has an antlr.config file
             where you can override property values from the master file or
             define things that are only relevant to that module.
-          -->
+         	
         <filters>
             <filter>antlr.config</filter>
         </filters>
-
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-
+		-->
+		  
         <plugins>
+			  <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
@@ -276,7 +221,6 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <!-- override the version inherited from the parent -->
                 <version>2.5</version>
                 <configuration>
                     <arguments>-Psonatype-oss-release ${release.arguments}</arguments>
@@ -286,14 +230,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <!-- override the version inherited from the parent -->
                 <version>2.17</version>
             </plugin>
 
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>findbugs-maven-plugin</artifactId>
-                <!-- override the version inherited from the parent -->
                 <version>2.5.3</version>
                 <configuration>
                     <findbugsXmlOutput>true</findbugsXmlOutput>
@@ -304,14 +246,12 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <!-- override the version inherited from the parent -->
                 <version>2.2.1</version>
             </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <!-- override the version inherited from the parent -->
                 <version>2.9.1</version>
                 <configuration>
                     <quiet>true</quiet>
@@ -321,9 +261,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
-                <!-- override the version inherited from the parent -->
                 <version>1.5</version>
             </plugin>
+			  
+			  -->
 				
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -419,20 +360,5 @@
 		</repository>
 	</distributionManagement>
 
-    <reporting>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.9.1</version>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jxr-plugin</artifactId>
-                <version>2.3</version>
-            </plugin>
-        </plugins>
-    </reporting>
-
+ 
 </project>

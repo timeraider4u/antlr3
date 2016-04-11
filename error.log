@@ -1,0 +1,1757 @@
+Apache Maven 3.3.3 (7994120775791599e205a5524ec3e0dfe41d4a06; 2015-04-22T13:57:37+02:00)
+Maven home: /usr/share/maven-bin-3.3
+Java version: 1.8.0_77, vendor: Oracle Corporation
+Java home: /opt/oracle-jdk-bin-1.8.0.77/jre
+Default locale: de_AT, platform encoding: UTF-8
+OS name: "linux", version: "4.1.15-gentoo-r1", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /usr/share/maven-bin-3.3/conf/settings.xml
+[DEBUG] Reading user settings from /home/harry/.m2/settings.xml
+[DEBUG] Reading global toolchains from /usr/share/maven-bin-3.3/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/harry/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/harry/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/harry/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project org.antlr:antlr-master:pom:3.5.3-SNAPSHOT: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.sonatype.oss:oss-parent:pom:9: (none)
+[DEBUG] Looking up lifecyle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=2, ConflictMarker.markTime=0, ConflictMarker.nodeCount=81, ConflictIdSorter.graphTime=2, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=40, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=10, ConflictResolver.conflictItemCount=80, DefaultDependencyCollector.collectTime=212, DefaultDependencyCollector.transformTime=17}
+[DEBUG] org.eclipse.tycho:tycho-maven-plugin:jar:0.24.0:
+[DEBUG]    org.eclipse.tycho:tycho-core:jar:0.24.0:compile
+[DEBUG]       org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]          org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]             org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]                org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.7:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:2.9.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-io:jar:2.4.1:compile
+[DEBUG]             commons-io:commons-io:jar:2.2:compile
+[DEBUG]          org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551:compile
+[DEBUG]       org.eclipse.tycho:sisu-equinox-embedder:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi:jar:3.10.101.v20150820-1432:compile
+[DEBUG]          org.eclipse.tycho:sisu-equinox-api:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:tycho-metadata-model:jar:0.24.0:compile
+[DEBUG]          de.pdark:decentxml:jar:1.3:compile
+[DEBUG]       org.eclipse.tycho:tycho-embedder-api:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.tycho.embedder.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.core.shared:jar:0.24.0:compile
+[DEBUG]    org.eclipse.tycho:tycho-p2-facade:jar:0.24.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.resolver.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.tools.shared:jar:0.24.0:compile
+[DEBUG] Created new class realm extension>org.eclipse.tycho:tycho-maven-plugin:0.24.0
+[DEBUG] Importing foreign packages into class realm extension>org.eclipse.tycho:tycho-maven-plugin:0.24.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>org.eclipse.tycho:tycho-maven-plugin:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-maven-plugin:jar:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-core:jar:0.24.0
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551
+[DEBUG]   Included: org.eclipse.tycho:sisu-equinox-embedder:jar:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.osgi:jar:3.10.101.v20150820-1432
+[DEBUG]   Included: org.eclipse.tycho:sisu-equinox-api:jar:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-metadata-model:jar:0.24.0
+[DEBUG]   Included: de.pdark:decentxml:jar:1.3
+[DEBUG]   Included: org.eclipse.tycho:tycho-embedder-api:jar:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.tycho.embedder.shared:jar:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.tycho.core.shared:jar:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-p2-facade:jar:0.24.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.tycho.p2.resolver.shared:jar:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.tycho.p2.tools.shared:jar:0.24.0
+[DEBUG] Extension realms for project org.antlr:org.antlr.runtime:eclipse-plugin:3.5.3-SNAPSHOT: [ClassRealm[extension>org.eclipse.tycho:tycho-maven-plugin:0.24.0, parent: sun.misc.Launcher$AppClassLoader@70dea4e]]
+[DEBUG] Created new class realm project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Looking up lifecyle mappings for packaging eclipse-plugin from ClassRealm[project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] Extension realms for project org.antlr:org.antlr.feature:eclipse-feature:3.5.3-SNAPSHOT: [ClassRealm[extension>org.eclipse.tycho:tycho-maven-plugin:0.24.0, parent: sun.misc.Launcher$AppClassLoader@70dea4e]]
+[DEBUG] Looking up lifecyle mappings for packaging eclipse-feature from ClassRealm[project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] Extension realms for project org.antlr:org.antlr.updatesite:eclipse-repository:3.5.3-SNAPSHOT: [ClassRealm[extension>org.eclipse.tycho:tycho-maven-plugin:0.24.0, parent: sun.misc.Launcher$AppClassLoader@70dea4e]]
+[DEBUG] Looking up lifecyle mappings for packaging eclipse-repository from ClassRealm[project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] Extension realms for project org.antlr:org.antlr.stringtemplate:eclipse-plugin:3.5.3-SNAPSHOT: [ClassRealm[extension>org.eclipse.tycho:tycho-maven-plugin:0.24.0, parent: sun.misc.Launcher$AppClassLoader@70dea4e]]
+[DEBUG] Looking up lifecyle mappings for packaging eclipse-plugin from ClassRealm[project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] org.eclipse.tycho:tycho-maven-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.runtime/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-packaging-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.runtime/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-p2-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.runtime/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-maven-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.feature:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.feature/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-packaging-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.feature:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.feature/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-p2-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.feature:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.feature/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-maven-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-p2-director-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-p2-publisher-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-p2-repository-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-p2-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-packaging-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-maven-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-packaging-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG] org.eclipse.tycho:tycho-p2-plugin:0.24.0 configured in MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG] target-platform-configuration for MavenProject: org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.runtime/pom.xml:
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <environments>
+    <environment>
+      <os>linux</os>
+      <ws>gtk</ws>
+      <arch>x86</arch>
+    </environment>
+    <environment>
+      <os>linux</os>
+      <ws>gtk</ws>
+      <arch>x86_64</arch>
+    </environment>
+    <environment>
+      <os>win32</os>
+      <ws>win32</ws>
+      <arch>x86</arch>
+    </environment>
+    <environment>
+      <os>win32</os>
+      <ws>win32</ws>
+      <arch>x86_64</arch>
+    </environment>
+    <environment>
+      <os>macosx</os>
+      <ws>cocoa</ws>
+      <arch>x86_64</arch>
+    </environment>
+  </environments>
+</configuration>
+Debug options:
+    file:/home/harry/workspace/workspace-xtext/antlr3/.options not found
+Time to load bundles: 316
+[DEBUG] Clearing proxy settings in OSGi runtime
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=90, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=44, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=2, ConflictResolver.conflictItemCount=89, DefaultDependencyCollector.collectTime=22, DefaultDependencyCollector.transformTime=3}
+[DEBUG] org.eclipse.tycho:tycho-p2-plugin:jar:0.24.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.7:compile
+[DEBUG]    org.eclipse.tycho:sisu-equinox-launching:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:tycho-core:jar:0.24.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-archiver:jar:2.9.1:compile
+[DEBUG]             org.codehaus.plexus:plexus-io:jar:2.4.1:compile
+[DEBUG]                commons-io:commons-io:jar:2.2:compile
+[DEBUG]             org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551:compile
+[DEBUG]          org.eclipse.tycho:tycho-metadata-model:jar:0.24.0:compile
+[DEBUG]             de.pdark:decentxml:jar:1.3:compile
+[DEBUG]          org.eclipse.tycho:tycho-embedder-api:jar:0.24.0:compile
+[DEBUG]             org.eclipse.tycho:org.eclipse.tycho.embedder.shared:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.tycho.core.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:sisu-equinox-api:jar:0.24.0:compile
+[DEBUG]       org.apache.commons:commons-exec:jar:1.2:compile
+[DEBUG]    org.eclipse.tycho:tycho-p2-facade:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:sisu-equinox-embedder:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi:jar:3.10.101.v20150820-1432:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.resolver.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.tools.shared:jar:0.24.0:compile
+[DEBUG]    org.eclipse.tycho:tycho-artifactcomparator:jar:0.24.0:compile
+[DEBUG]       org.ow2.asm:asm-debug-all:jar:5.0.3:compile
+[DEBUG] Created new class realm plugin>org.eclipse.tycho:tycho-p2-plugin:0.24.0
+[DEBUG] Importing foreign packages into class realm plugin>org.eclipse.tycho:tycho-p2-plugin:0.24.0
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.eclipse.tycho:tycho-p2-plugin:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-p2-plugin:jar:0.24.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.7
+[DEBUG]   Included: org.eclipse.tycho:sisu-equinox-launching:jar:0.24.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.2
+[DEBUG]   Included: org.eclipse.tycho:tycho-artifactcomparator:jar:0.24.0
+[DEBUG]   Included: org.ow2.asm:asm-debug-all:jar:5.0.3
+[DEBUG] target-platform-configuration for MavenProject: org.antlr:org.antlr.feature:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.feature/pom.xml:
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <environments>
+    <environment>
+      <os>linux</os>
+      <ws>gtk</ws>
+      <arch>x86</arch>
+    </environment>
+    <environment>
+      <os>linux</os>
+      <ws>gtk</ws>
+      <arch>x86_64</arch>
+    </environment>
+    <environment>
+      <os>win32</os>
+      <ws>win32</ws>
+      <arch>x86</arch>
+    </environment>
+    <environment>
+      <os>win32</os>
+      <ws>win32</ws>
+      <arch>x86_64</arch>
+    </environment>
+    <environment>
+      <os>macosx</os>
+      <ws>cocoa</ws>
+      <arch>x86_64</arch>
+    </environment>
+  </environments>
+</configuration>
+[DEBUG] target-platform-configuration for MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml:
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <environments>
+    <environment>
+      <os>linux</os>
+      <ws>gtk</ws>
+      <arch>x86</arch>
+    </environment>
+    <environment>
+      <os>linux</os>
+      <ws>gtk</ws>
+      <arch>x86_64</arch>
+    </environment>
+    <environment>
+      <os>win32</os>
+      <ws>win32</ws>
+      <arch>x86</arch>
+    </environment>
+    <environment>
+      <os>win32</os>
+      <ws>win32</ws>
+      <arch>x86_64</arch>
+    </environment>
+    <environment>
+      <os>macosx</os>
+      <ws>cocoa</ws>
+      <arch>x86_64</arch>
+    </environment>
+  </environments>
+</configuration>
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=91, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=90, DefaultDependencyCollector.collectTime=16, DefaultDependencyCollector.transformTime=2}
+[DEBUG] org.eclipse.tycho:tycho-p2-director-plugin:jar:0.24.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.7:compile
+[DEBUG]    org.eclipse.tycho:tycho-p2-facade:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:tycho-core:jar:0.24.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-archiver:jar:2.9.1:compile
+[DEBUG]             org.codehaus.plexus:plexus-io:jar:2.4.1:compile
+[DEBUG]                commons-io:commons-io:jar:2.2:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551:compile
+[DEBUG]          org.eclipse.tycho:tycho-metadata-model:jar:0.24.0:compile
+[DEBUG]             de.pdark:decentxml:jar:1.3:compile
+[DEBUG]          org.eclipse.tycho:tycho-embedder-api:jar:0.24.0:compile
+[DEBUG]             org.eclipse.tycho:org.eclipse.tycho.embedder.shared:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.tycho.core.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:sisu-equinox-embedder:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi:jar:3.10.101.v20150820-1432:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.resolver.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.tools.shared:jar:0.24.0:compile
+[DEBUG]    org.eclipse.tycho:sisu-equinox-launching:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:sisu-equinox-api:jar:0.24.0:compile
+[DEBUG]       org.apache.commons:commons-exec:jar:1.2:compile
+[DEBUG]    org.eclipse.tycho:tycho-standalone-p2-director:zip:0.24.0:compile
+[DEBUG]    org.apache.commons:commons-compress:jar:1.7:compile
+[DEBUG]       org.tukaani:xz:jar:1.4:compile
+[DEBUG]    org.apache.commons:commons-compress:jar:sources:1.7:compile
+[DEBUG] Created new class realm plugin>org.eclipse.tycho:tycho-p2-director-plugin:0.24.0
+[DEBUG] Importing foreign packages into class realm plugin>org.eclipse.tycho:tycho-p2-director-plugin:0.24.0
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.eclipse.tycho:tycho-p2-director-plugin:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-p2-director-plugin:jar:0.24.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551
+[DEBUG]   Included: org.eclipse.tycho:sisu-equinox-launching:jar:0.24.0
+[DEBUG]   Included: org.apache.commons:commons-exec:jar:1.2
+[DEBUG]   Included: org.eclipse.tycho:tycho-standalone-p2-director:zip:0.24.0
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.7
+[DEBUG]   Included: org.tukaani:xz:jar:1.4
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:sources:1.7
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=143, ConflictIdSorter.graphTime=1, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=93, DefaultDependencyCollector.collectTime=20, DefaultDependencyCollector.transformTime=3}
+[DEBUG] org.eclipse.tycho:tycho-p2-publisher-plugin:jar:0.24.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:3.0.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.7:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]    org.eclipse.tycho:tycho-p2-facade:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:tycho-core:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551:compile
+[DEBUG]          org.eclipse.tycho:tycho-metadata-model:jar:0.24.0:compile
+[DEBUG]             de.pdark:decentxml:jar:1.3:compile
+[DEBUG]          org.eclipse.tycho:tycho-embedder-api:jar:0.24.0:compile
+[DEBUG]             org.eclipse.tycho:org.eclipse.tycho.embedder.shared:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.tycho.core.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:sisu-equinox-embedder:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi:jar:3.10.101.v20150820-1432:compile
+[DEBUG]          org.eclipse.tycho:sisu-equinox-api:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.resolver.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.tools.shared:jar:0.24.0:compile
+[DEBUG]    org.eclipse.tycho:tycho-packaging-plugin:jar:0.24.0:compile
+[DEBUG]       org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:2.9.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-io:jar:2.4.1:compile
+[DEBUG]             commons-io:commons-io:jar:2.2:compile
+[DEBUG]          org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG] Created new class realm plugin>org.eclipse.tycho:tycho-p2-publisher-plugin:0.24.0
+[DEBUG] Importing foreign packages into class realm plugin>org.eclipse.tycho:tycho-p2-publisher-plugin:0.24.0
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.eclipse.tycho:tycho-p2-publisher-plugin:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-p2-publisher-plugin:jar:0.24.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.7
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551
+[DEBUG]   Included: org.eclipse.tycho:tycho-packaging-plugin:jar:0.24.0
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=81, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=40, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=80, DefaultDependencyCollector.collectTime=6, DefaultDependencyCollector.transformTime=2}
+[DEBUG] org.eclipse.tycho:tycho-p2-repository-plugin:jar:0.24.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:3.0.7:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.eclipse.tycho:tycho-p2-facade:jar:0.24.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.eclipse.tycho:tycho-core:jar:0.24.0:compile
+[DEBUG]          org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]             org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]             org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]             org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]             org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]             org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]             org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]                org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]             org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]             org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]             org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]             org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]                org.sonatype.plexus:plexus-cipher:jar:1.7:compile
+[DEBUG]          org.codehaus.plexus:plexus-archiver:jar:2.9.1:compile
+[DEBUG]             org.codehaus.plexus:plexus-io:jar:2.4.1:compile
+[DEBUG]                commons-io:commons-io:jar:2.2:compile
+[DEBUG]             org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551:compile
+[DEBUG]          org.eclipse.tycho:tycho-metadata-model:jar:0.24.0:compile
+[DEBUG]             de.pdark:decentxml:jar:1.3:compile
+[DEBUG]          org.eclipse.tycho:tycho-embedder-api:jar:0.24.0:compile
+[DEBUG]             org.eclipse.tycho:org.eclipse.tycho.embedder.shared:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.tycho.core.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:sisu-equinox-embedder:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi:jar:3.10.101.v20150820-1432:compile
+[DEBUG]          org.eclipse.tycho:sisu-equinox-api:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.resolver.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.p2.tools.shared:jar:0.24.0:compile
+[DEBUG] Created new class realm plugin>org.eclipse.tycho:tycho-p2-repository-plugin:0.24.0
+[DEBUG] Importing foreign packages into class realm plugin>org.eclipse.tycho:tycho-p2-repository-plugin:0.24.0
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.eclipse.tycho:tycho-p2-repository-plugin:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-p2-repository-plugin:jar:0.24.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.7
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551
+[DEBUG] target-platform-configuration for MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml:
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <environments>
+    <environment>
+      <os>linux</os>
+      <ws>gtk</ws>
+      <arch>x86</arch>
+    </environment>
+    <environment>
+      <os>linux</os>
+      <ws>gtk</ws>
+      <arch>x86_64</arch>
+    </environment>
+    <environment>
+      <os>win32</os>
+      <ws>win32</ws>
+      <arch>x86</arch>
+    </environment>
+    <environment>
+      <os>win32</os>
+      <ws>win32</ws>
+      <arch>x86_64</arch>
+    </environment>
+    <environment>
+      <os>macosx</os>
+      <ws>cocoa</ws>
+      <arch>x86_64</arch>
+    </environment>
+  </environments>
+</configuration>
+[INFO] Computing target platform for MavenProject: org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.runtime/pom.xml
+[DEBUG] Added p2 repository Eclipse (http://download.eclipse.org/releases/luna)
+[DEBUG] Using execution environment 'JavaSE-1.7' configured in Bundle-RequiredExecutionEnvironment (first entry)
+[DEBUG] Registered artifact repository org.eclipse.tycho.repository.registry.facade.RepositoryBlackboardKey(uri=file:/resolution-context-artifacts@/home/harry/workspace/workspace-xtext/antlr3/org.antlr.runtime)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/luna/ (0B at 0B/s)
+[INFO] Adding repository http://download.eclipse.org/releases/luna
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/luna/201406250900/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/luna/201409261001/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/luna/201501121000/ (0B at 0B/s)
+[INFO] Fetching p2.index from http://download.eclipse.org/releases/luna/201502271000/ (0B at 0B/s)
+[DEBUG] Added 66 locally built units to the target platform
+[INFO] Resolving dependencies of MavenProject: org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.runtime/pom.xml
+[INFO] Resolving class path of MavenProject: org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.runtime/pom.xml
+[INFO] Computing target platform for MavenProject: org.antlr:org.antlr.feature:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.feature/pom.xml
+[DEBUG] Added p2 repository Eclipse (http://download.eclipse.org/releases/luna)
+[DEBUG] Using default execution environment 'JavaSE-1.7'
+[DEBUG] Registered artifact repository org.eclipse.tycho.repository.registry.facade.RepositoryBlackboardKey(uri=file:/resolution-context-artifacts@/home/harry/workspace/workspace-xtext/antlr3/org.antlr.feature)
+[DEBUG] Added 66 locally built units to the target platform
+[INFO] Resolving dependencies of MavenProject: org.antlr:org.antlr.feature:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.feature/pom.xml
+[INFO] Resolving class path of MavenProject: org.antlr:org.antlr.feature:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.feature/pom.xml
+[INFO] Computing target platform for MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml
+[DEBUG] Added p2 repository Eclipse (http://download.eclipse.org/releases/luna)
+[DEBUG] Using default execution environment 'JavaSE-1.7'
+[DEBUG] Registered artifact repository org.eclipse.tycho.repository.registry.facade.RepositoryBlackboardKey(uri=file:/resolution-context-artifacts@/home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite)
+[DEBUG] Added 66 locally built units to the target platform
+[INFO] Resolving dependencies of MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml
+[INFO] Resolving class path of MavenProject: org.antlr:org.antlr.updatesite:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.updatesite/pom.xml
+[INFO] Computing target platform for MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG] Added p2 repository Eclipse (http://download.eclipse.org/releases/luna)
+[DEBUG] Using execution environment 'JavaSE-1.7' configured in Bundle-RequiredExecutionEnvironment (first entry)
+[DEBUG] Registered artifact repository org.eclipse.tycho.repository.registry.facade.RepositoryBlackboardKey(uri=file:/resolution-context-artifacts@/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate)
+[DEBUG] Added 66 locally built units to the target platform
+[INFO] Resolving dependencies of MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[INFO] Resolving class path of MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ANTLR 3 Master build control POM
+[INFO] ANTLR StringTemplate
+[INFO] org.antlr.runtime
+[INFO] org.antlr.feature
+[INFO] org.antlr.updatesite
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: org.antlr:antlr-master:pom:3.5.3-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: org.antlr:org.antlr.stringtemplate:eclipse-plugin:3.5.3-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: org.antlr:org.antlr.runtime:eclipse-plugin:3.5.3-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: org.antlr:org.antlr.feature:eclipse-feature:3.5.3-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Project: org.antlr:org.antlr.updatesite:eclipse-repository:3.5.3-SNAPSHOT
+[DEBUG] Tasks:   [clean, install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ANTLR 3 Master build control POM 3.5.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.antlr:antlr-master:3.5.3-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [Eclipse (http://download.eclipse.org/releases/luna, p2, releases+snapshots), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-enforcer-plugin:1.2:enforce (enforce-maven)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <fail default-value="true">${enforcer.fail}</fail>
+  <failFast default-value="false">${enforcer.failFast}</failFast>
+  <ignoreCache default-value="false">${enforcer.ignoreCache}</ignoreCache>
+  <rules>
+    <requireMavenVersion>
+      <version>(,2.1.0),(2.1.0,2.2.0),(2.2.0,)</version>
+      <message>Maven 2.1.0 and 2.2.0 produce incorrect GPG signatures and checksums respectively.</message>
+    </requireMavenVersion>
+  </rules>
+  <skip default-value="false">${enforcer.skip}</skip>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=1, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=0, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=0, DefaultDependencyCollector.collectTime=0, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.antlr:antlr-master:pom:3.5.3-SNAPSHOT
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ antlr-master ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=8, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/harry/workspace/workspace-xtext/antlr3/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/harry/workspace/workspace-xtext/antlr3/target/classes
+[DEBUG]   (f) reportDirectory = /home/harry/workspace/workspace-xtext/antlr3/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/harry/workspace/workspace-xtext/antlr3/target/test-classes
+[DEBUG] -- end configuration --
+[DEBUG] Skipping non-existing directory /home/harry/workspace/workspace-xtext/antlr3/target
+[DEBUG] Skipping non-existing directory /home/harry/workspace/workspace-xtext/antlr3/target/classes
+[DEBUG] Skipping non-existing directory /home/harry/workspace/workspace-xtext/antlr3/target/test-classes
+[DEBUG] Skipping non-existing directory /home/harry/workspace/workspace-xtext/antlr3/target/site
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ antlr-master ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=101, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=33, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=91, DefaultDependencyCollector.collectTime=65, DefaultDependencyCollector.transformTime=1}
+[DEBUG] org.apache.maven.plugins:maven-enforcer-plugin:jar:1.2:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.2:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.3:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-api:jar:1.2:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-rules:jar:1.2:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.2:compile
+[DEBUG]          org.apache.maven.shared:maven-plugin-testing-harness:jar:1.1:test
+[DEBUG]             org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:test
+[DEBUG]       org.beanshell:bsh:jar:2.0b4:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-tree:jar:2.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-enforcer-plugin:jar:1.2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.3
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-api:jar:1.2
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-rules:jar:1.2
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.2
+[DEBUG]   Included: org.beanshell:bsh:jar:2.0b4
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-enforcer-plugin:1.2:enforce from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-enforcer-plugin:1.2:enforce' with basic configurator -->
+[DEBUG]   (s) fail = true
+[DEBUG]   (s) failFast = false
+[DEBUG]   (f) ignoreCache = false
+[DEBUG]   (s) version = (,2.1.0),(2.1.0,2.2.0),(2.2.0,)
+[DEBUG]   (f) message = Maven 2.1.0 and 2.2.0 produce incorrect GPG signatures and checksums respectively.
+[DEBUG]   (s) rules = [org.apache.maven.plugins.enforcer.RequireMavenVersion@64f4f12]
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) project = MavenProject: org.antlr:antlr-master:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@37d28938
+[DEBUG] -- end configuration --
+[DEBUG] Executing rule: org.apache.maven.plugins.enforcer.RequireMavenVersion
+[DEBUG] Rule org.apache.maven.plugins.enforcer.RequireMavenVersion is cacheable.
+[DEBUG] Detected Maven Version: 3.3.3
+[DEBUG] Detected Maven Version: 3.3.3 is allowed in the range (,2.1.0),(2.1.0,2.2.0),(2.2.0,).
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ antlr-master ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=25, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install' with basic configurator -->
+[DEBUG]   (f) artifact = org.antlr:antlr-master:pom:3.5.3-SNAPSHOT
+[DEBUG]   (f) attachedArtifacts = []
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///home/harry/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = pom
+[DEBUG]   (f) pomFile = /home/harry/workspace/workspace-xtext/antlr3/pom.xml
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG] -- end configuration --
+[INFO] Installing /home/harry/workspace/workspace-xtext/antlr3/pom.xml to /home/harry/.m2/repository/org/antlr/antlr-master/3.5.3-SNAPSHOT/antlr-master-3.5.3-SNAPSHOT.pom
+[DEBUG] Writing tracking file /home/harry/.m2/repository/org/antlr/antlr-master/3.5.3-SNAPSHOT/_remote.repositories
+[DEBUG] Installing org.antlr:antlr-master:3.5.3-SNAPSHOT/maven-metadata.xml to /home/harry/.m2/repository/org/antlr/antlr-master/3.5.3-SNAPSHOT/maven-metadata-local.xml
+[DEBUG] Installing org.antlr:antlr-master/maven-metadata.xml to /home/harry/.m2/repository/org/antlr/antlr-master/maven-metadata-local.xml
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ANTLR StringTemplate 3.5.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [Eclipse (http://download.eclipse.org/releases/luna, p2, disabled), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, default, snapshots), central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.tycho:tycho-packaging-plugin:0.24.0:build-qualifier (default-build-qualifier)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <baseDir>${project.basedir}</baseDir>
+  <execution>${mojoExecution}</execution>
+  <forceContextQualifier>${forceContextQualifier}</forceContextQualifier>
+  <format default-value="yyyyMMddHHmm"/>
+  <packaging>${project.packaging}</packaging>
+  <project>${project}</project>
+  <session>${session}</session>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.tycho:tycho-packaging-plugin:0.24.0:validate-id (default-validate-id)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <packaging>${project.packaging}</packaging>
+  <project>${project}</project>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.tycho:tycho-packaging-plugin:0.24.0:validate-version (default-validate-version)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <packaging>${project.packaging}</packaging>
+  <project>${project}</project>
+  <strictVersions default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-enforcer-plugin:1.2:enforce (enforce-maven)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <fail default-value="true">${enforcer.fail}</fail>
+  <failFast default-value="false">${enforcer.failFast}</failFast>
+  <ignoreCache default-value="false">${enforcer.ignoreCache}</ignoreCache>
+  <rules>
+    <requireMavenVersion>
+      <version>(,2.1.0),(2.1.0,2.2.0),(2.2.0,)</version>
+      <message>Maven 2.1.0 and 2.2.0 produce incorrect GPG signatures and checksums respectively.</message>
+    </requireMavenVersion>
+  </rules>
+  <skip default-value="false">${enforcer.skip}</skip>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.codehaus.mojo:antlr-maven-plugin:2.1:generate (default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <debug default-value="false">${debug}</debug>
+  <diagnostic default-value="false">${diagnostic}</diagnostic>
+  <grammarDefs>${grammarDefs}</grammarDefs>
+  <grammars>template.g, angle.bracket.template.g, action.g, eval.g, group.g, interface.g</grammars>
+  <outputDirectory>${project.build.directory}/generated-sources/antlr</outputDirectory>
+  <project>${project}</project>
+  <sourceDirectory>src/org/antlr/stringtemplate/language</sourceDirectory>
+  <trace default-value="false">${trace}</trace>
+  <traceLexer default-value="false">${traceLexer}</traceLexer>
+  <traceParser default-value="false">${traceParser}</traceParser>
+  <traceTreeParser default-value="false">${traceTreeParser}</traceTreeParser>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.4.3:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString default-value="${maven.resources.escapeString}"/>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.tycho:tycho-compiler-plugin:0.24.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir>${basedir}</basedir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <compilerId default-value="jdt">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <copyResources default-value="true"/>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <encoding>${project.build.sourceEncoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <fork default-value="false"/>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <logDirectory default-value="${project.build.directory}/compile-logs"/>
+  <mavenCompilerEncoding>${maven.compiler.encoding}</mavenCompilerEncoding>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <project>${project}</project>
+  <requireJREPackageImports default-value="false"/>
+  <session>${session}</session>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source>${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <strictCompilerTarget default-value="false"/>
+  <target>${maven.compiler.target}</target>
+  <useJDK default-value="SYSTEM"/>
+  <useProjectSettings default-value="false"/>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.4.3:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString default-value="${maven.resources.escapeString}"/>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources>${project.testResources}</resources>
+  <session default-value="${session}"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.tycho:target-platform-configuration:0.24.0:target-platform (default-target-platform)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project>${project}</project>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.tycho:tycho-packaging-plugin:0.24.0:package-plugin (default-package-plugin)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <finalName>${project.build.finalName}</finalName>
+  <project>${project}</project>
+  <qualifier>${buildQualifier}</qualifier>
+  <session>${session}</session>
+  <strictBinIncludes default-value="true"/>
+  <useDefaultExcludes default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.tycho:tycho-p2-plugin:0.24.0:p2-metadata-default (default-p2-metadata-default)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <attachP2Metadata default-value="true"/>
+  <baselineMode default-value="warn">${tycho.baseline}</baselineMode>
+  <baselineReplace default-value="all">${tycho.baseline.replace}</baselineReplace>
+  <defaultP2Metadata default-value="true"/>
+  <project>${project}</project>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.3.1:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.eclipse.tycho:tycho-p2-plugin:0.24.0:update-local-index (default-update-local-index)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <project>${project}</project>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=4, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=5, DefaultDependencyCollector.transformTime=1}
+[DEBUG] org.antlr:org.antlr.stringtemplate:eclipse-plugin:3.5.3-SNAPSHOT
+[DEBUG]    antlr:antlr:jar:2.7.7:compile
+[DEBUG]    org.antlr:ST4:jar:4.0.8:compile
+[DEBUG]       org.antlr:antlr-runtime:jar:3.5.2:compile
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ org.antlr.stringtemplate ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=0, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=3, DefaultDependencyCollector.transformTime=0}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5-354587195
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5-354587195
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5-354587195
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5-354587195, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes
+[DEBUG]   (f) reportDirectory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplate$Aggregate.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplateGroupInterface$1.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplateGroup$1.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/StringTemplateAST.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ASTExpr.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/InterfaceLexer.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/Expr.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/TemplateParserTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionEvaluator.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/InterfaceParser.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/AngleBracketTemplateLexerTokenTypes.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionEvaluatorTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ArrayWrappedInList.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/FormalArgument.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/AngleBracketTemplateLexer.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionParser.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/DefaultTemplateLexer.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/StringRef.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionEvaluator$NameValuePair.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/GroupLexer.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/GroupParserTokenTypes.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/InterfaceParser.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ConditionalExpr$1.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/GroupParser.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/GroupParser.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/TemplateParser.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionEvaluator.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/InterfaceParserTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/GroupLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ASTExpr$1.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/TemplateParser.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionParser.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/AngleBracketTemplateLexerTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ArrayIterator.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionLexer.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/TemplateParserTokenTypes.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionParserTokenTypes.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionEvaluator$1.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionParserTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/InterfaceLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/NewlineRef.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ConditionalExpr.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ConditionalExpr$ElseIfClauseData.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionEvaluatorTokenTypes.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/DefaultTemplateLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/InterfaceParserTokenTypes.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/AngleBracketTemplateLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/Cat.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/GroupParserTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ASTExpr$2.class
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplateWriter.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplateGroupLoader.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplateErrorListener.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/AttributeRenderer.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplate$STAttributeList.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/StringTemplateTreeView$1.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/JTreeStringTemplateModel$ListWrapper.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/StringTemplateTreeView.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/JTreeStringTemplatePanel.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/JTreeStringTemplateModel$StringTemplateWrapper.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/JTreeStringTemplateModel$MapEntryWrapper.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/JTreeStringTemplateModel$ExprWrapper.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/JTreeStringTemplateModel$Wrapper.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/JTreeStringTemplateModel.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc/JTreeStringTemplateModel$HashMapWrapper.class
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/misc
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/CommonGroupLoader.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplateGroupInterface$TemplateDefinition.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/NoIndentWriter.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/AutoIndentWriter.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/PathGroupLoader.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplateGroupInterface.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplateGroup.class
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/StringTemplate.class
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/DefaultTemplateLexer.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/AngleBracketTemplateLexerTokenTypes.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionParser.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/TemplateParserTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/TemplateParserTokenTypes.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionEvaluatorTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionParserTokenTypes.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionEvaluatorTokenTypes.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/InterfaceParser.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionLexer.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/GroupParser.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionEvaluator.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/InterfaceParserTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/GroupLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionEvaluator.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/GroupParserTokenTypes.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/TemplateParser.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/InterfaceParser.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/AngleBracketTemplateLexer.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionParser.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/AngleBracketTemplateLexerTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/InterfaceLexer.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/GroupLexer.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionParserTokenTypes.txt
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/GroupParser.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/InterfaceLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/TemplateParser.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/DefaultTemplateLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/InterfaceParserTokenTypes.java
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/AngleBracketTemplateLexer.smap
+[INFO] Deleting file /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/GroupParserTokenTypes.txt
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/annotations
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources
+[INFO] Deleting directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target
+[DEBUG] Skipping non-existing directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes
+[DEBUG] Skipping non-existing directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/test-classes
+[DEBUG] Skipping non-existing directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/site
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.24.0:build-qualifier (default-build-qualifier) @ org.antlr.stringtemplate ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=133, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=38, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4, ConflictResolver.conflictItemCount=83, DefaultDependencyCollector.collectTime=7, DefaultDependencyCollector.transformTime=4}
+[DEBUG] org.eclipse.tycho:tycho-packaging-plugin:jar:0.24.0:
+[DEBUG]    org.eclipse.tycho:tycho-core:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551:compile
+[DEBUG]       org.eclipse.tycho:sisu-equinox-embedder:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi:jar:3.10.101.v20150820-1432:compile
+[DEBUG]          org.eclipse.tycho:sisu-equinox-api:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:tycho-metadata-model:jar:0.24.0:compile
+[DEBUG]          de.pdark:decentxml:jar:1.3:compile
+[DEBUG]       org.eclipse.tycho:tycho-embedder-api:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.tycho.embedder.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.core.shared:jar:0.24.0:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.7:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.7:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.9.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.4.1:compile
+[DEBUG]          commons-io:commons-io:jar:2.2:compile
+[DEBUG]       org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG] Created new class realm plugin>org.eclipse.tycho:tycho-packaging-plugin:0.24.0
+[DEBUG] Importing foreign packages into class realm plugin>org.eclipse.tycho:tycho-packaging-plugin:0.24.0
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.eclipse.tycho:tycho-packaging-plugin:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-packaging-plugin:jar:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.7
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG] Configuring mojo org.eclipse.tycho:tycho-packaging-plugin:0.24.0:build-qualifier from plugin realm ClassRealm[plugin>org.eclipse.tycho:tycho-packaging-plugin:0.24.0, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.eclipse.tycho:tycho-packaging-plugin:0.24.0:build-qualifier' with basic configurator -->
+[DEBUG]   (f) baseDir = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate
+[DEBUG]   (f) execution = org.eclipse.tycho:tycho-packaging-plugin:0.24.0:build-qualifier {execution: default-build-qualifier}
+[DEBUG]   (s) format = yyyyMMddHHmm
+[DEBUG]   (f) packaging = eclipse-plugin
+[DEBUG]   (f) project = MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@37d28938
+[DEBUG] -- end configuration --
+[INFO] The project's OSGi version is 3.5.3.201604101910
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.24.0:validate-id (default-validate-id) @ org.antlr.stringtemplate ---
+[DEBUG] Configuring mojo org.eclipse.tycho:tycho-packaging-plugin:0.24.0:validate-id from plugin realm ClassRealm[plugin>org.eclipse.tycho:tycho-packaging-plugin:0.24.0, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.eclipse.tycho:tycho-packaging-plugin:0.24.0:validate-id' with basic configurator -->
+[DEBUG]   (f) packaging = eclipse-plugin
+[DEBUG]   (f) project = MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- tycho-packaging-plugin:0.24.0:validate-version (default-validate-version) @ org.antlr.stringtemplate ---
+[DEBUG] Configuring mojo org.eclipse.tycho:tycho-packaging-plugin:0.24.0:validate-version from plugin realm ClassRealm[plugin>org.eclipse.tycho:tycho-packaging-plugin:0.24.0, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.eclipse.tycho:tycho-packaging-plugin:0.24.0:validate-version' with basic configurator -->
+[DEBUG]   (f) packaging = eclipse-plugin
+[DEBUG]   (f) project = MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG]   (f) strictVersions = true
+[DEBUG] -- end configuration --
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ org.antlr.stringtemplate ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=101, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=33, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=91, DefaultDependencyCollector.collectTime=5, DefaultDependencyCollector.transformTime=2}
+[DEBUG] org.apache.maven.plugins:maven-enforcer-plugin:jar:1.2:
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.2:test
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.5.8:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.3:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-api:jar:1.2:compile
+[DEBUG]    org.apache.maven.enforcer:enforcer-rules:jar:1.2:compile
+[DEBUG]       org.apache.maven.shared:maven-common-artifact-filters:jar:1.2:compile
+[DEBUG]          org.apache.maven.shared:maven-plugin-testing-harness:jar:1.1:test
+[DEBUG]             org.codehaus.plexus:plexus-archiver:jar:1.0-alpha-7:test
+[DEBUG]       org.beanshell:bsh:jar:2.0b4:compile
+[DEBUG]       org.apache.maven.shared:maven-dependency-tree:jar:2.0:compile
+[DEBUG]          org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2--881334259
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2--881334259
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2--881334259
+[DEBUG]   Included: org.apache.maven.plugins:maven-enforcer-plugin:jar:1.2
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-10
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.8
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.3
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-api:jar:1.2
+[DEBUG]   Included: org.apache.maven.enforcer:enforcer-rules:jar:1.2
+[DEBUG]   Included: org.apache.maven.shared:maven-common-artifact-filters:jar:1.2
+[DEBUG]   Included: org.beanshell:bsh:jar:2.0b4
+[DEBUG]   Included: org.apache.maven.shared:maven-dependency-tree:jar:2.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-enforcer-plugin:1.2:enforce from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-enforcer-plugin:1.2--881334259, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-enforcer-plugin:1.2:enforce' with basic configurator -->
+[DEBUG]   (s) fail = true
+[DEBUG]   (s) failFast = false
+[DEBUG]   (f) ignoreCache = false
+[DEBUG]   (s) version = (,2.1.0),(2.1.0,2.2.0),(2.2.0,)
+[DEBUG]   (f) message = Maven 2.1.0 and 2.2.0 produce incorrect GPG signatures and checksums respectively.
+[DEBUG]   (s) rules = [org.apache.maven.plugins.enforcer.RequireMavenVersion@4e5c8ef3]
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) project = MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@37d28938
+[DEBUG] -- end configuration --
+[DEBUG] Executing rule: org.apache.maven.plugins.enforcer.RequireMavenVersion
+[DEBUG] Rule org.apache.maven.plugins.enforcer.RequireMavenVersion is cacheable.
+[DEBUG] Detected Maven Version: 3.3.3
+[DEBUG] Detected Maven Version: 3.3.3 is allowed in the range (,2.1.0),(2.1.0,2.2.0),(2.2.0,).
+[INFO] 
+[INFO] --- antlr-maven-plugin:2.1:generate (default) @ org.antlr.stringtemplate ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=59, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=27, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=50, DefaultDependencyCollector.collectTime=26, DefaultDependencyCollector.transformTime=1}
+[DEBUG] org.codehaus.mojo:antlr-maven-plugin:jar:2.1:
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.2:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.2:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.2:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.2:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.2:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9:compile
+[DEBUG]          junit:junit:jar:3.8.1:test
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven.reporting:maven-reporting-impl:jar:2.0.2:compile
+[DEBUG]       commons-validator:commons-validator:jar:1.1.4:compile
+[DEBUG]       org.apache.maven.doxia:doxia-core:jar:1.0-alpha-7:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       oro:oro:jar:2.0.7:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.2:compile
+[DEBUG]       org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-7:compile
+[DEBUG]          org.codehaus.plexus:plexus-velocity:jar:1.1.2:compile
+[DEBUG]             commons-collections:commons-collections:jar:2.0:compile
+[DEBUG]             commons-logging:commons-logging-api:jar:1.0.4:compile
+[DEBUG]             velocity:velocity:jar:1.4:compile
+[DEBUG]                velocity:velocity-dep:jar:1.4:runtime
+[DEBUG]          org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-7:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.4.1:compile
+[DEBUG]    org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-1:compile
+[DEBUG] Created new class realm plugin>org.codehaus.mojo:antlr-maven-plugin:2.1
+[DEBUG] Importing foreign packages into class realm plugin>org.codehaus.mojo:antlr-maven-plugin:2.1
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.codehaus.mojo:antlr-maven-plugin:2.1
+[DEBUG]   Included: org.codehaus.mojo:antlr-maven-plugin:jar:2.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-impl:jar:2.0.2
+[DEBUG]   Included: commons-validator:commons-validator:jar:1.1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-core:jar:1.0-alpha-7
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: oro:oro:jar:2.0.7
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.2
+[DEBUG]   Included: org.apache.maven.doxia:doxia-site-renderer:jar:1.0-alpha-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-velocity:jar:1.1.2
+[DEBUG]   Included: commons-collections:commons-collections:jar:2.0
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.0.4
+[DEBUG]   Included: velocity:velocity:jar:1.4
+[DEBUG]   Included: velocity:velocity-dep:jar:1.4
+[DEBUG]   Included: org.apache.maven.doxia:doxia-decoration-model:jar:1.0-alpha-7
+[DEBUG]   Included: org.codehaus.plexus:plexus-i18n:jar:1.0-beta-6
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.4.1
+[DEBUG] Configuring mojo org.codehaus.mojo:antlr-maven-plugin:2.1:generate from plugin realm ClassRealm[plugin>org.codehaus.mojo:antlr-maven-plugin:2.1, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.codehaus.mojo:antlr-maven-plugin:2.1:generate' with basic configurator -->
+[DEBUG]   (f) debug = false
+[DEBUG]   (f) diagnostic = false
+[DEBUG]   (f) grammarDefs = []
+[DEBUG]   (f) grammars = template.g, angle.bracket.template.g, action.g, eval.g, group.g, interface.g
+[DEBUG]   (f) outputDirectory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr
+[DEBUG]   (f) project = MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG]   (f) sourceDirectory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language
+[DEBUG]   (f) trace = false
+[DEBUG]   (f) traceLexer = false
+[DEBUG]   (f) traceParser = false
+[DEBUG]   (f) traceTreeParser = false
+[DEBUG] -- end configuration --
+[INFO] Using Antlr grammar: /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g
+[DEBUG] antlr args=
+-o
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g
+ANTLR Parser Generator   Version 2.7.7 (20060906)   1989-2005
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:305:25: warning:lexical nondeterminism between alts 1 and 2 of block upon
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:305:25:     k==1:'\n','\r'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:305:25:     k==2:'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:305:25:     k==3:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:305:25:     k==4:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:305:25:     k==5:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:305:25:     k==6:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:305:25:     k==7:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:309:17: warning:lexical nondeterminism between alts 1 and 2 of block upon
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:309:17:     k==1:'\n','\r'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:309:17:     k==2:'\n','\r','@'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:309:17:     k==3:<end-of-token>,'\n','e'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:309:17:     k==4:<end-of-token>
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:309:17:     k==5:<end-of-token>
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:309:17:     k==6:<end-of-token>
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:309:17:     k==7:<end-of-token>
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:397: warning:nongreedy block may exit incorrectly due
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:397:     	to limitations of linear approximate lookahead (first k-1 sets
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:397:     	in lookahead not singleton).
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:340: warning:nongreedy block may exit incorrectly due
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:340:     	to limitations of linear approximate lookahead (first k-1 sets
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/template.g:340:     	in lookahead not singleton).
+
+[INFO] Using Antlr grammar: /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g
+[DEBUG] antlr args=
+-o
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g
+ANTLR Parser Generator   Version 2.7.7 (20060906)   1989-2005
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:153:25: warning:lexical nondeterminism between alts 1 and 2 of block upon
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:153:25:     k==1:'\n','\r'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:153:25:     k==2:'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:153:25:     k==3:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:153:25:     k==4:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:153:25:     k==5:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:153:25:     k==6:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:153:25:     k==7:<end-of-token>,'\u0001'..'\ufffe'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:157:17: warning:lexical nondeterminism between alts 1 and 2 of block upon
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:157:17:     k==1:'\n','\r'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:157:17:     k==2:'\n','\r','@'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:157:17:     k==3:<end-of-token>,'\n','e'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:157:17:     k==4:<end-of-token>
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:157:17:     k==5:<end-of-token>
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:157:17:     k==6:<end-of-token>
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:157:17:     k==7:<end-of-token>
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:241: warning:nongreedy block may exit incorrectly due
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:241:     	to limitations of linear approximate lookahead (first k-1 sets
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:241:     	in lookahead not singleton).
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:188: warning:nongreedy block may exit incorrectly due
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:188:     	to limitations of linear approximate lookahead (first k-1 sets
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/angle.bracket.template.g:188:     	in lookahead not singleton).
+
+[INFO] Using Antlr grammar: /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g
+[DEBUG] antlr args=
+-o
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g
+ANTLR Parser Generator   Version 2.7.7 (20060906)   1989-2005
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:268: warning:lexical nondeterminism between alts 1 and 3 of block upon
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:268:     k==1:'\\'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:268:     k==2:'{'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:268: warning:lexical nondeterminism between alts 2 and 3 of block upon
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:268:     k==1:'\\'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:268:     k==2:'}'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:286: warning:lexical nondeterminism between alts 1 and 3 of block upon
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:286:     k==1:'\\'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:286:     k==2:'{'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:286: warning:lexical nondeterminism between alts 2 and 3 of block upon
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:286:     k==1:'\\'
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/action.g:286:     k==2:'}'
+
+[INFO] Using Antlr grammar: /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/eval.g
+[DEBUG] antlr args=
+-o
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/eval.g
+ANTLR Parser Generator   Version 2.7.7 (20060906)   1989-2005
+
+[INFO] Using Antlr grammar: /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/group.g
+[DEBUG] antlr args=
+-o
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/group.g
+ANTLR Parser Generator   Version 2.7.7 (20060906)   1989-2005
+
+[INFO] Using Antlr grammar: /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/interface.g
+[DEBUG] antlr args=
+-o
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language
+/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/org/antlr/stringtemplate/language/interface.g
+ANTLR Parser Generator   Version 2.7.7 (20060906)   1989-2005
+
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ org.antlr.stringtemplate ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=1, ConflictMarker.markTime=0, ConflictMarker.nodeCount=78, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=75, DefaultDependencyCollector.collectTime=19, DefaultDependencyCollector.transformTime=2}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.4.3:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.0-beta-4:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.4.3
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.0-beta-4
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.4.3:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.4.3:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/main/resources, PatternSet [includes: {}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr, PatternSet [includes: {**/**.txt}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@37d28938
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Oracle Corporation, env.SESSION_MANAGER=local/harry:@/tmp/.ICE-unix/3227,unix/harry:/tmp/.ICE-unix/3227, env.LESSOPEN=|lesspipe %s, sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, eclipse.name=luna, env.COLORFGBG=15;0, os.name=Linux, tycho.env.osgi.os=linux, sun.boot.class.path=/opt/oracle-jdk-bin-1.8.0.77/jre/lib/resources.jar:/opt/oracle-jdk-bin-1.8.0.77/jre/lib/rt.jar:/opt/oracle-jdk-bin-1.8.0.77/jre/lib/sunrsasign.jar:/opt/oracle-jdk-bin-1.8.0.77/jre/lib/jsse.jar:/opt/oracle-jdk-bin-1.8.0.77/jre/lib/jce.jar:/opt/oracle-jdk-bin-1.8.0.77/jre/lib/charsets.jar:/opt/oracle-jdk-bin-1.8.0.77/jre/lib/jfr.jar:/opt/oracle-jdk-bin-1.8.0.77/jre/classes, env.QT_GRAPHICSSYSTEM=raster, env.PWD=/home/harry/workspace/workspace-xtext/antlr3, env.XDG_SESSION_COOKIE=harry-1457734626.533359-1242234157, unqualifiedVersion=3.5.3, env.LANG=de_AT.utf8, env.LESS=-R -M --shift 5, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_77-b03, project.build.sourceEncoding=UTF-8, env.DISPLAY=:0, user.name=harry, maven.build.version=Apache Maven 3.3.3 (7994120775791599e205a5524ec3e0dfe41d4a06; 2015-04-22T13:57:37+02:00), env.KONSOLE_DBUS_WINDOW=/Windows/1, env.USER=harry, env.SHELL=/bin/bash, env.KDE_MULTIHEAD=false, env.DESKTOP_SESSION=default, env.XDG_DATA_DIRS=/usr/share:/usr/local/share:/usr/share, env.NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, env.PATH=/usr/games/bin:~/bin:~/Apps/android-sdk-linux//tools/:~/Apps/android-sdk-linux//platform-tools//usr/local/bin:/usr/bin:/bin:/opt/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.9.3:/usr/games/bin:/usr/x86_64-pc-linux-gnu/gcc-bin/4.8.4, env.XDG_CURRENT_DESKTOP=KDE, user.language=de, env.GS_LIB=/home/harry/.fonts, sun.boot.library.path=/opt/oracle-jdk-bin-1.8.0.77/jre/lib/amd64, classworlds.conf=/usr/share/maven-bin-3.3/bin/m2.conf, env.QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/home/harry/.kde4/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/, env.KDE_SESSION_UID=1000, java.version=1.8.0_77, env.KDE_FULL_SESSION=true, user.timezone=Europe/Vienna, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-99D8HF4nfw,guid=3fcaaf990c9c46245ecb64e356e343e3, sun.arch.data.model=64, env.SSH_AGENT_PID=3150, java.endorsed.dirs=/opt/oracle-jdk-bin-1.8.0.77/jre/lib/endorsed, env.JDK_HOME=/home/harry/.gentoo/java-config-2/current-user-vm, buildQualifier=201604101910, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, env.SHLVL=2, file.separator=/, java.specification.name=Java Platform API Specification, env.OPENCL_PROFILE=nvidia, env.XCURSOR_THEME=Oxygen_White, env.GUILE_LOAD_PATH=/usr/share/guile/1.8, java.class.version=52.0, org.slf4j.simpleLogger.defaultLogLevel=debug, env.KDE_SESSION_VERSION=4, user.country=AT, qualifiedVersion=3.5.3.201604101910, java.home=/opt/oracle-jdk-bin-1.8.0.77/jre, env.GCC_SPECS=, env.PRELINK_PATH_MASK=/usr/lib64/libfreebl3.so:/usr/lib64/libnssdbm3.so:/usr/lib64/libsoftokn3.so:/usr/lib32/libfreebl3.so:/usr/lib32/libnssdbm3.so:/usr/lib32/libsoftokn3.so:/opt/bin/skype, java.vm.info=mixed mode, env.LOGNAME=harry, os.version=4.1.15-gentoo-r1, env.VTK_DATA_ROOT=/usr/share/vtk/data, path.separator=:, java.vm.version=25.77-b03, env.LANGUAGE=, env.DM_CONTROL=/var/run/xdmctl, env.VTK_DIR=/usr/lib64/vtk-6.1, env.JAVA_HOME=/home/harry/.gentoo/java-config-2/current-user-vm, java.awt.printerjob=sun.print.PSPrinterJob, env.TERM=xterm, env.WINDOWPATH=7, sun.io.unicode.encoding=UnicodeLittle, env.EM_CONFIG=/usr/share/emscripten-1.34.11/emscripten.config, awt.toolkit=sun.awt.X11.XToolkit, env.OPENGL_PROFILE=nvidia, env.MANPATH=/home/harry/.gentoo/java-config-2/current-user-vm/man:/usr/local/share/man:/usr/share/man:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.9.3/man:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.25.1/man:/etc/java-config-2/current-system-vm/man/:/usr/lib64/php5.6/man/, env.MULTIOSDIRS=../lib64:../lib32, user.home=/home/harry, env.OLDPWD=/home/harry/workspace/workspace-xtext/antlr3, env.GSETTINGS_BACKEND=dconf, java.specification.vendor=Oracle Corporation, env.PAGER=/usr/bin/less, env.WINDOWID=37748762, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, env.MAVEN_CMD_LINE_ARGS= clean install -X, env.CONFIG_PROTECT_MASK=/etc/gentoo-release /etc/sandbox.d /etc/php/cli-php5.6/ext-active/ /etc/php/cgi-php5.6/ext-active/ /etc/php/apache2-php5.6/ext-active/ /etc/fonts/fonts.conf /etc/gconf /etc/terminfo /etc/dconf /etc/ca-certificates.conf /etc/texmf/web2c /etc/texmf/language.dat.d /etc/texmf/language.def.d /etc/texmf/updmap.d /etc/revdep-rebuild, java.vm.vendor=Oracle Corporation, maven.home=/usr/share/maven-bin-3.3, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher clean install -X, java.class.path=/usr/share/maven-bin-3.3/boot/plexus-classworlds-2.5.2.jar, sonatypeOssDistMgmtSnapshotsUrl=https://oss.sonatype.org/content/repositories/snapshots/, env.KONSOLE_DBUS_SESSION=/Sessions/48, maven.version=3.3.3, arguments=, env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, java.vm.specification.name=Java Virtual Machine Specification, tycho.env.osgi.arch=x86_64, github.global.server=github, java.vm.specification.version=1.8, env.XDM_MANAGED=method=classic, sun.cpu.endian=little, sun.os.patch.level=unknown, env.GTK_RC_FILES=/etc/gtk/gtkrc:/home/harry/.gtkrc:/home/harry/.kde4/share/config/gtkrc, env.HOME=/home/harry, env.ANT_HOME=/usr/share/ant, java.io.tmpdir=/tmp, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.pdf=00;32:*.ps=00;32:*.txt=00;32:*.patch=00;32:*.diff=00;32:*.log=00;32:*.tex=00;32:*.doc=00;32:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:, env.CONFIG_PROTECT=/usr/share/maven-bin-3.0/conf /usr/share/gnupg/qualified.txt /usr/share/config /srv/localhost/jboss-bin-4/all/conf/jacorb.properties /srv/localhost/jboss-bin-4/all/conf/jboss-minimal.xml /srv/localhost/jboss-bin-4/all/conf/jboss-service.xml /srv/localhost/jboss-bin-4/all/conf/jndi.properties /srv/localhost/jboss-bin-4/all/conf/log4j.xml /srv/localhost/jboss-bin-4/all/conf/login-config.xml /srv/localhost/jboss-bin-4/all/conf/props/jbossws-roles.properties /srv/localhost/jboss-bin-4/all/conf/props/jbossws-users.properties /srv/localhost/jboss-bin-4/all/conf/props/jmx-console-roles.properties /srv/localhost/jboss-bin-4/all/conf/props/jmx-console-users.properties /srv/localhost/jboss-bin-4/all/conf/standardjaws.xml /srv/localhost/jboss-bin-4/all/conf/standardjbosscmp-jdbc.xml /srv/localhost/jboss-bin-4/all/conf/standardjboss.xml /srv/localhost/jboss-bin-4/all/conf/xmdesc/AttributePersistenceService-xmbean.xml /srv/localhost/jboss-bin-4/all/conf/xmdesc/ClientUserTransaction-xmbean.xml /srv/localhost/jboss-bin-4/all/conf/xmdesc/JNDIView-xmbean.xml /srv/localhost/jboss-bin-4/all/conf/xmdesc/Log4jService-xmbean.xml /srv/localhost/jboss-bin-4/all/conf/xmdesc/NamingService-xmbean.xml /srv/localhost/jboss-bin-4/all/conf/xmdesc/TransactionManagerService-xmbean.xml /srv/localhost/jboss-bin-4/all/conf/xmdesc/org.jboss.deployment.JARDeployer-xmbean.xml /srv/localhost/jboss-bin-4/all/conf/xmdesc/org.jboss.deployment.MainDeployer-xmbean.xml /srv/localhost/jboss-bin-4/all/conf/xmdesc/org.jboss.deployment.SARDeployer-xmbean.xml /srv/localhost/jboss-bin-4/all/deploy/bsh-deployer.xml /srv/localhost/jboss-bin-4/all/deploy/cache-invalidation-service.xml /srv/localhost/jboss-bin-4/all/deploy/client-deployer-service.xml /srv/localhost/jboss-bin-4/all/deploy/cluster-service.xml /srv/localhost/jboss-bin-4/all/deploy/deploy-hasingleton-service.xml /srv/localhost/jboss-bin-4/all/deploy/deploy.last/farm-service.xml /srv/localhost/jboss-bin-4/all/deploy/ear-deployer.xml /srv/localhost/jboss-bin-4/all/deploy/ejb-deployer.xml /srv/localhost/jboss-bin-4/all/deploy/hsqldb-ds.xml /srv/localhost/jboss-bin-4/all/deploy/httpha-invoker.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy/httpha-invoker.sar/invoker.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/all/deploy/httpha-invoker.sar/invoker.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/all/deploy/iiop-service.xml /srv/localhost/jboss-bin-4/all/deploy/jboss-aop.deployer/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy/jboss-aop.deployer/base-aop.xml /srv/localhost/jboss-bin-4/all/deploy/jboss-bean.deployer/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy/jbossjca-service.xml /srv/localhost/jboss-bin-4/all/deploy/jbossweb-tomcat55.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy/jbossweb-tomcat55.sar/META-INF/webserver-xmbean.xml /srv/localhost/jboss-bin-4/all/deploy/jbossweb-tomcat55.sar/ROOT.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/all/deploy/jbossweb-tomcat55.sar/conf/web.xml /srv/localhost/jboss-bin-4/all/deploy/jbossweb-tomcat55.sar/context.xml /srv/localhost/jboss-bin-4/all/deploy/jbossweb-tomcat55.sar/server.xml /srv/localhost/jboss-bin-4/all/deploy/jbossws14.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy/jbossws14.sar/META-INF/standard-jbossws-client-config.xml /srv/localhost/jboss-bin-4/all/deploy/jbossws14.sar/META-INF/standard-jbossws-endpoint-config.xml /srv/localhost/jboss-bin-4/all/deploy/jms/hajndi-jms-ds.xml /srv/localhost/jboss-bin-4/all/deploy/jmx-console.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/all/deploy/jmx-console.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/all/deploy/jmx-invoker-service.xml /srv/localhost/jboss-bin-4/all/deploy/jsr88-service.xml /srv/localhost/jboss-bin-4/all/deploy/juddi-service.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy/juddi-service.sar/juddiws.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/all/deploy/juddi-service.sar/juddiws.war/WEB-INF/juddi.properties /srv/localhost/jboss-bin-4/all/deploy/juddi-service.sar/juddiws.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/all/deploy/mail-service.xml /srv/localhost/jboss-bin-4/all/deploy/management/console-mgr.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy/management/console-mgr.sar/web-console.war/WEB-INF/classes/web-console-roles.properties /srv/localhost/jboss-bin-4/all/deploy/management/console-mgr.sar/web-console.war/WEB-INF/classes/web-console-users.properties /srv/localhost/jboss-bin-4/all/deploy/management/console-mgr.sar/web-console.war/WEB-INF/tlds/webconsole.tld /srv/localhost/jboss-bin-4/all/deploy/management/console-mgr.sar/web-console.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/all/deploy/management/console-mgr.sar/web-console.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/all/deploy/monitoring-service.xml /srv/localhost/jboss-bin-4/all/deploy/properties-service.xml /srv/localhost/jboss-bin-4/all/deploy/schedule-manager-service.xml /srv/localhost/jboss-bin-4/all/deploy/scheduler-service.xml /srv/localhost/jboss-bin-4/all/deploy/snmp-adaptor.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy/snmp-adaptor.sar/attributes.xml /srv/localhost/jboss-bin-4/all/deploy/snmp-adaptor.sar/managers.xml /srv/localhost/jboss-bin-4/all/deploy/snmp-adaptor.sar/notifications.xml /srv/localhost/jboss-bin-4/all/deploy/sqlexception-service.xml /srv/localhost/jboss-bin-4/all/deploy/tc5-cluster.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy/uuid-key-generator.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy-hasingleton/jms/jbossmq-httpil.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/all/deploy-hasingleton/jms/jbossmq-httpil.sar/jbossmq-httpil.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/all/deploy-hasingleton/jms/jbossmq-httpil.sar/jbossmq-httpil.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/all/deploy-hasingleton/jms/hsqldb-jdbc-state-service.xml /srv/localhost/jboss-bin-4/all/deploy-hasingleton/jms/hsqldb-jdbc2-service.xml /srv/localhost/jboss-bin-4/all/deploy-hasingleton/jms/jbossmq-destinations-service.xml /srv/localhost/jboss-bin-4/all/deploy-hasingleton/jms/jbossmq-service.xml /srv/localhost/jboss-bin-4/all/deploy-hasingleton/jms/jvm-il-service.xml /srv/localhost/jboss-bin-4/all/deploy-hasingleton/jms/uil2-service.xml /srv/localhost/jboss-bin-4/default/conf/jboss-minimal.xml /srv/localhost/jboss-bin-4/default/conf/jboss-service.xml /srv/localhost/jboss-bin-4/default/conf/jndi.properties /srv/localhost/jboss-bin-4/default/conf/log4j.xml /srv/localhost/jboss-bin-4/default/conf/login-config.xml /srv/localhost/jboss-bin-4/default/conf/props/jbossws-roles.properties /srv/localhost/jboss-bin-4/default/conf/props/jbossws-users.properties /srv/localhost/jboss-bin-4/default/conf/props/jmx-console-roles.properties /srv/localhost/jboss-bin-4/default/conf/props/jmx-console-users.properties /srv/localhost/jboss-bin-4/default/conf/standardjaws.xml /srv/localhost/jboss-bin-4/default/conf/standardjbosscmp-jdbc.xml /srv/localhost/jboss-bin-4/default/conf/standardjboss.xml /srv/localhost/jboss-bin-4/default/conf/xmdesc/AttributePersistenceService-xmbean.xml /srv/localhost/jboss-bin-4/default/conf/xmdesc/ClientUserTransaction-xmbean.xml /srv/localhost/jboss-bin-4/default/conf/xmdesc/JNDIView-xmbean.xml /srv/localhost/jboss-bin-4/default/conf/xmdesc/Log4jService-xmbean.xml /srv/localhost/jboss-bin-4/default/conf/xmdesc/NamingService-xmbean.xml /srv/localhost/jboss-bin-4/default/conf/xmdesc/TransactionManagerService-xmbean.xml /srv/localhost/jboss-bin-4/default/conf/xmdesc/org.jboss.deployment.JARDeployer-xmbean.xml /srv/localhost/jboss-bin-4/default/conf/xmdesc/org.jboss.deployment.MainDeployer-xmbean.xml /srv/localhost/jboss-bin-4/default/conf/xmdesc/org.jboss.deployment.SARDeployer-xmbean.xml /srv/localhost/jboss-bin-4/default/deploy/bsh-deployer.xml /srv/localhost/jboss-bin-4/default/deploy/cache-invalidation-service.xml /srv/localhost/jboss-bin-4/default/deploy/client-deployer-service.xml /srv/localhost/jboss-bin-4/default/deploy/ear-deployer.xml /srv/localhost/jboss-bin-4/default/deploy/ejb-deployer.xml /srv/localhost/jboss-bin-4/default/deploy/hsqldb-ds.xml /srv/localhost/jboss-bin-4/default/deploy/http-invoker.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/default/deploy/http-invoker.sar/invoker.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/default/deploy/http-invoker.sar/invoker.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/default/deploy/jboss-aop.deployer/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/default/deploy/jboss-aop.deployer/base-aop.xml /srv/localhost/jboss-bin-4/default/deploy/jboss-bean.deployer/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/default/deploy/jbossjca-service.xml /srv/localhost/jboss-bin-4/default/deploy/jbossweb-tomcat55.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/default/deploy/jbossweb-tomcat55.sar/META-INF/webserver-xmbean.xml /srv/localhost/jboss-bin-4/default/deploy/jbossweb-tomcat55.sar/ROOT.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/default/deploy/jbossweb-tomcat55.sar/conf/web.xml /srv/localhost/jboss-bin-4/default/deploy/jbossweb-tomcat55.sar/context.xml /srv/localhost/jboss-bin-4/default/deploy/jbossweb-tomcat55.sar/server.xml /srv/localhost/jboss-bin-4/default/deploy/jbossws14.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/default/deploy/jbossws14.sar/META-INF/standard-jbossws-client-config.xml /srv/localhost/jboss-bin-4/default/deploy/jbossws14.sar/META-INF/standard-jbossws-endpoint-config.xml /srv/localhost/jboss-bin-4/default/deploy/jms/jbossmq-httpil.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/default/deploy/jms/jbossmq-httpil.sar/jbossmq-httpil.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/default/deploy/jms/jbossmq-httpil.sar/jbossmq-httpil.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/default/deploy/jms/hsqldb-jdbc-state-service.xml /srv/localhost/jboss-bin-4/default/deploy/jms/hsqldb-jdbc2-service.xml /srv/localhost/jboss-bin-4/default/deploy/jms/jbossmq-destinations-service.xml /srv/localhost/jboss-bin-4/default/deploy/jms/jbossmq-service.xml /srv/localhost/jboss-bin-4/default/deploy/jms/jms-ds.xml /srv/localhost/jboss-bin-4/default/deploy/jms/jvm-il-service.xml /srv/localhost/jboss-bin-4/default/deploy/jms/uil2-service.xml /srv/localhost/jboss-bin-4/default/deploy/jmx-console.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/default/deploy/jmx-console.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/default/deploy/jmx-invoker-service.xml /srv/localhost/jboss-bin-4/default/deploy/jsr88-service.xml /srv/localhost/jboss-bin-4/default/deploy/mail-service.xml /srv/localhost/jboss-bin-4/default/deploy/management/console-mgr.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/default/deploy/management/console-mgr.sar/web-console.war/WEB-INF/classes/web-console-roles.properties /srv/localhost/jboss-bin-4/default/deploy/management/console-mgr.sar/web-console.war/WEB-INF/classes/web-console-users.properties /srv/localhost/jboss-bin-4/default/deploy/management/console-mgr.sar/web-console.war/WEB-INF/tlds/webconsole.tld /srv/localhost/jboss-bin-4/default/deploy/management/console-mgr.sar/web-console.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/default/deploy/management/console-mgr.sar/web-console.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/default/deploy/monitoring-service.xml /srv/localhost/jboss-bin-4/default/deploy/properties-service.xml /srv/localhost/jboss-bin-4/default/deploy/schedule-manager-service.xml /srv/localhost/jboss-bin-4/default/deploy/scheduler-service.xml /srv/localhost/jboss-bin-4/default/deploy/sqlexception-service.xml /srv/localhost/jboss-bin-4/default/deploy/uuid-key-generator.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/gentoo/conf/jboss-minimal.xml /srv/localhost/jboss-bin-4/gentoo/conf/jboss-service.xml /srv/localhost/jboss-bin-4/gentoo/conf/jndi.properties /srv/localhost/jboss-bin-4/gentoo/conf/log4j.xml /srv/localhost/jboss-bin-4/gentoo/conf/login-config.xml /srv/localhost/jboss-bin-4/gentoo/conf/props/jbossws-roles.properties /srv/localhost/jboss-bin-4/gentoo/conf/props/jbossws-users.properties /srv/localhost/jboss-bin-4/gentoo/conf/props/jmx-console-roles.properties /srv/localhost/jboss-bin-4/gentoo/conf/props/jmx-console-users.properties /srv/localhost/jboss-bin-4/gentoo/conf/standardjaws.xml /srv/localhost/jboss-bin-4/gentoo/conf/standardjbosscmp-jdbc.xml /srv/localhost/jboss-bin-4/gentoo/conf/standardjboss.xml /srv/localhost/jboss-bin-4/gentoo/conf/xmdesc/AttributePersistenceService-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/conf/xmdesc/ClientUserTransaction-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/conf/xmdesc/JNDIView-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/conf/xmdesc/Log4jService-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/conf/xmdesc/NamingService-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/conf/xmdesc/TransactionManagerService-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/conf/xmdesc/org.jboss.deployment.JARDeployer-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/conf/xmdesc/org.jboss.deployment.MainDeployer-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/conf/xmdesc/org.jboss.deployment.SARDeployer-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/deploy/bsh-deployer.xml /srv/localhost/jboss-bin-4/gentoo/deploy/cache-invalidation-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/client-deployer-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/ear-deployer.xml /srv/localhost/jboss-bin-4/gentoo/deploy/ejb-deployer.xml /srv/localhost/jboss-bin-4/gentoo/deploy/hsqldb-ds.xml /srv/localhost/jboss-bin-4/gentoo/deploy/http-invoker.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/http-invoker.sar/invoker.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/gentoo/deploy/http-invoker.sar/invoker.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jboss-aop.deployer/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jboss-aop.deployer/base-aop.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jboss-bean.deployer/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jbossjca-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jbossweb-tomcat55.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jbossweb-tomcat55.sar/META-INF/webserver-xmbean.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jbossweb-tomcat55.sar/conf/web.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jbossweb-tomcat55.sar/context.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jbossweb-tomcat55.sar/server.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jbossws14.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jbossws14.sar/META-INF/standard-jbossws-client-config.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jbossws14.sar/META-INF/standard-jbossws-endpoint-config.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/jbossmq-httpil.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/jbossmq-httpil.sar/jbossmq-httpil.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/jbossmq-httpil.sar/jbossmq-httpil.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/hsqldb-jdbc-state-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/hsqldb-jdbc2-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/jbossmq-destinations-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/jbossmq-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/jms-ds.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/jvm-il-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jms/uil2-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jmx-console.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jmx-console.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jmx-invoker-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/jsr88-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/mail-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/management/console-mgr.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/management/console-mgr.sar/web-console.war/WEB-INF/classes/web-console-roles.properties /srv/localhost/jboss-bin-4/gentoo/deploy/management/console-mgr.sar/web-console.war/WEB-INF/classes/web-console-users.properties /srv/localhost/jboss-bin-4/gentoo/deploy/management/console-mgr.sar/web-console.war/WEB-INF/tlds/webconsole.tld /srv/localhost/jboss-bin-4/gentoo/deploy/management/console-mgr.sar/web-console.war/WEB-INF/jboss-web.xml /srv/localhost/jboss-bin-4/gentoo/deploy/management/console-mgr.sar/web-console.war/WEB-INF/web.xml /srv/localhost/jboss-bin-4/gentoo/deploy/monitoring-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/properties-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/schedule-manager-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/scheduler-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/sqlexception-service.xml /srv/localhost/jboss-bin-4/gentoo/deploy/uuid-key-generator.sar/META-INF/jboss-service.xml /srv/localhost/jboss-bin-4/minimal/conf/jboss-service.xml /srv/localhost/jboss-bin-4/minimal/conf/jndi.properties /srv/localhost/jboss-bin-4/minimal/conf/log4j.xml /usr/lib64/libreoffice/program/sofficerc, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=/home/harry/workspace/workspace-xtext/antlr3, tycho.env.osgi.ws=gtk, env.SSH_AUTH_SOCK=/tmp/ssh-GJzwFnWK4nmU/agent.3149, tycho.version=0.24.0, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.ext.dirs=/opt/oracle-jdk-bin-1.8.0.77/jre/lib/ext:/usr/java/packages/lib/ext, env.KONSOLE_PROFILE_NAME=Shell, user.dir=/home/harry/workspace/workspace-xtext/antlr3, env.VBOX_APP_HOME=/usr/lib64/virtualbox, env.INFOPATH=/usr/share/info:/usr/share/gcc-data/x86_64-pc-linux-gnu/4.9.3/info:/usr/share/binutils-data/x86_64-pc-linux-gnu/2.25.1/info, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/harry/.gtkrc-2.0:/home/harry/.kde4/share/config/gtkrc-2.0, env.EDITOR=/bin/nano, file.encoding=UTF-8, env.MAIL=/var/mail/harry, env.LC_COLLATE=C, env.SHELL_SESSION_ID=891451d568fd4000bdcafe3539b12d4d, env.KONSOLE_DBUS_SERVICE=:1.1846, env.VTKHOME=/usr, java.specification.version=1.8, env.PROFILEHOME=/home/harry, env.XDG_CONFIG_DIRS=/etc/xdg, env.MAVEN_PROJECTBASEDIR=/home/harry/workspace/workspace-xtext/antlr3, env.JAVAC=/home/harry/.gentoo/java-config-2/current-user-vm/bin/javac, env.SSH_ASKPASS=/usr/bin/ksshaskpass}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src/main/resources
+[DEBUG] resource with targetPath null
+directory /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr
+excludes []
+includes [**/**.txt]
+[DEBUG] ignoreDelta true
+[INFO] Copying 6 resources
+[DEBUG] file GroupParserTokenTypes.txt has a filtered file extension
+[DEBUG] copy /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/GroupParserTokenTypes.txt to /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/GroupParserTokenTypes.txt
+[DEBUG] file ActionParserTokenTypes.txt has a filtered file extension
+[DEBUG] copy /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionParserTokenTypes.txt to /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionParserTokenTypes.txt
+[DEBUG] file AngleBracketTemplateLexerTokenTypes.txt has a filtered file extension
+[DEBUG] copy /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/AngleBracketTemplateLexerTokenTypes.txt to /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/AngleBracketTemplateLexerTokenTypes.txt
+[DEBUG] file InterfaceParserTokenTypes.txt has a filtered file extension
+[DEBUG] copy /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/InterfaceParserTokenTypes.txt to /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/InterfaceParserTokenTypes.txt
+[DEBUG] file ActionEvaluatorTokenTypes.txt has a filtered file extension
+[DEBUG] copy /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/ActionEvaluatorTokenTypes.txt to /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/ActionEvaluatorTokenTypes.txt
+[DEBUG] file TemplateParserTokenTypes.txt has a filtered file extension
+[DEBUG] copy /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr/org/antlr/stringtemplate/language/TemplateParserTokenTypes.txt to /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes/org/antlr/stringtemplate/language/TemplateParserTokenTypes.txt
+[INFO] 
+[INFO] --- tycho-compiler-plugin:0.24.0:compile (default-compile) @ org.antlr.stringtemplate ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=0, ConflictMarker.nodeCount=98, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=44, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1, ConflictResolver.conflictItemCount=97, DefaultDependencyCollector.collectTime=15, DefaultDependencyCollector.transformTime=1}
+[DEBUG] org.eclipse.tycho:tycho-compiler-plugin:jar:0.24.0:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-compat:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]          org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]          org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]             org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.7:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.eclipse.tycho:tycho-core:jar:0.24.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-archiver:jar:2.9.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-io:jar:2.4.1:compile
+[DEBUG]             commons-io:commons-io:jar:2.2:compile
+[DEBUG]          org.apache.commons:commons-compress:jar:1.9:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551:compile
+[DEBUG]       org.eclipse.tycho:sisu-equinox-embedder:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.osgi:jar:3.10.101.v20150820-1432:compile
+[DEBUG]          org.eclipse.tycho:sisu-equinox-api:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:tycho-metadata-model:jar:0.24.0:compile
+[DEBUG]          de.pdark:decentxml:jar:1.3:compile
+[DEBUG]       org.eclipse.tycho:tycho-embedder-api:jar:0.24.0:compile
+[DEBUG]          org.eclipse.tycho:org.eclipse.tycho.embedder.shared:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.tycho.core.shared:jar:0.24.0:compile
+[DEBUG]    org.eclipse.tycho:tycho-compiler-jdt:jar:0.24.0:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.jdt.core:jar:3.11.1.v20150902-1521:compile
+[DEBUG]       org.eclipse.tycho:org.eclipse.jdt.compiler.apt:jar:1.2.0.v20150514-0146:compile
+[DEBUG] Created new class realm plugin>org.eclipse.tycho:tycho-compiler-plugin:0.24.0
+[DEBUG] Importing foreign packages into class realm plugin>org.eclipse.tycho:tycho-compiler-plugin:0.24.0
+[DEBUG]   Imported:  < project>org.antlr:org.antlr.runtime:3.5.3-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.eclipse.tycho:tycho-compiler-plugin:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:tycho-compiler-plugin:jar:0.24.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.9.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.4.1
+[DEBUG]   Included: commons-io:commons-io:jar:2.2
+[DEBUG]   Included: org.apache.commons:commons-compress:jar:1.9
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.osgi.compatibility.state:jar:1.0.100.v20150402-1551
+[DEBUG]   Included: org.eclipse.tycho:tycho-compiler-jdt:jar:0.24.0
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.jdt.core:jar:3.11.1.v20150902-1521
+[DEBUG]   Included: org.eclipse.tycho:org.eclipse.jdt.compiler.apt:jar:1.2.0.v20150514-0146
+[DEBUG] Configuring mojo org.eclipse.tycho:tycho-compiler-plugin:0.24.0:compile from plugin realm ClassRealm[plugin>org.eclipse.tycho:tycho-compiler-plugin:0.24.0, parent: sun.misc.Launcher$AppClassLoader@70dea4e]
+[DEBUG] Configuring mojo 'org.eclipse.tycho:tycho-compiler-plugin:0.24.0:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate
+[DEBUG]   (f) buildDirectory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target
+[DEBUG]   (f) compilerId = jdt
+[DEBUG]   (f) copyResources = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/annotations
+[DEBUG]   (f) logDirectory = /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/compile-logs
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputFileName = org.antlr.stringtemplate-3.5.3-SNAPSHOT
+[DEBUG]   (f) project = MavenProject: org.antlr:org.antlr.stringtemplate:3.5.3-SNAPSHOT @ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/pom.xml
+[DEBUG]   (f) requireJREPackageImports = false
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@37d28938
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) strictCompilerTarget = false
+[DEBUG]   (f) useJDK = SYSTEM
+[DEBUG]   (f) useProjectSettings = false
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Manifest BREEs: [OSGi profile 'JavaSE-1.7' { source level: 1.7, target level: 1.7}]
+[DEBUG] Effective EE: OSGi profile 'JavaSE-1.7' { source level: 1.7, target level: 1.7}
+[DEBUG] Effective source/target: 1.7/1.7
+[DEBUG] Using compiler 'jdt'.
+[DEBUG] Source directories: [/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src
+ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/libs
+ /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr]
+[DEBUG] Classpath: [/home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes]
+[DEBUG] Output directory: /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes
+[DEBUG] Classpath:
+[DEBUG]  /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes
+[DEBUG] Source roots:
+[DEBUG]  /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/src
+[DEBUG]  /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/libs
+[DEBUG]  /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/generated-sources/antlr
+[INFO] Compiling 42 source files to /home/harry/workspace/workspace-xtext/antlr3/org.antlr.stringtemplate/target/classes
+[DEBUG] Boot classpath access rules: [+java/**:+javax/accessibility/*:+javax/activation/*:+javax/activity/*:+javax/annotation/*:+javax/annotation/processing/*:+javax/crypto/*:+javax/crypto/interfaces/*:+javax/crypto/spec/*:+javax/imageio/*:+javax/imageio/event/*:+javax/imageio/metadata/*:+javax/imageio/plugins/bmp/*:+javax/imageio/plugins/jpeg/*:+javax/imageio/spi/*:+javax/imageio/stream/*:+javax/jws/*:+javax/jws/soap/*:+javax/lang/model/*:+javax/lang/model/element/*:+javax/lang/model/type/*:+javax/lang/model/util/*:+javax/management/*:+javax/management/loading/*:+javax/management/modelmbean/*:+javax/management/monitor/*:+javax/management/openmbean/*:+javax/management/relation/*:+javax/management/remote/*:+javax/management/remote/rmi/*:+javax/management/timer/*:+javax/naming/*:+javax/naming/directory/*:+javax/naming/event/*:+javax/naming/ldap/*:+javax/naming/spi/*:+javax/net/*:+javax/net/ssl/*:+javax/print/*:+javax/print/attribute/*:+javax/print/attribute/standard/*:+javax/print/event/*:+javax/rmi/*:+javax/rmi/CORBA/*:+javax/rmi/ssl/*:+javax/script/*:+javax/security/auth/*:+javax/security/auth/callback/*:+javax/security/auth/kerberos/*:+javax/security/auth/login/*:+javax/security/auth/spi/*:+javax/security/auth/x500/*:+javax/security/cert/*:+javax/security/sasl/*:+javax/sound/midi/*:+javax/sound/midi/spi/*:+javax/sound/sampled/*:+javax/sound/sampled/spi/*:+javax/sql/*:+javax/sql/rowset/*:+javax/sql/rowset/serial/*:+javax/sql/rowset/spi/*:+javax/swing/*:+javax/swing/border/*:+javax/swing/colorchooser/*:+javax/swing/event/*:+javax/swing/filechooser/*:+javax/swing/plaf/*:+javax/swing/plaf/basic/*:+javax/swing/plaf/metal/*:+javax/swing/plaf/multi/*:+javax/swing/plaf/nimbus/*:+javax/swing/plaf/synth/*:+javax/swing/table/*:+javax/swing/text/*:+javax/swing/text/html/*:+javax/swing/text/html/parser/*:+javax/swing/text/rtf/*:+javax/swing/tree/*:+javax/swing/undo/*:+javax/tools/*:+javax/transaction/*:+javax/transaction/xa/*:+javax/xml/*:+javax/xml/bind/*:+javax/xml/bind/annotation/*:+javax/xml/bind/annotation/adapters/*:+javax/xml/bind/attachment/*:+javax/xml/bind/helpers/*:+javax/xml/bind/util/*:+javax/xml/crypto/*:+javax/xml/crypto/dom/*:+javax/xml/crypto/dsig/*:+javax/xml/crypto/dsig/dom/*:+javax/xml/crypto/dsig/keyinfo/*:+javax/xml/crypto/dsig/spec/*:+javax/xml/datatype/*:+javax/xml/namespace/*:+javax/xml/parsers/*:+javax/xml/soap/*:+javax/xml/stream/*:+javax/xml/stream/events/*:+javax/xml/stream/util/*:+javax/xml/transform/*:+javax/xml/transform/dom/*:+javax/xml/transform/sax/*:+javax/xml/transform/stax/*:+javax/xml/transform/stream/*:+javax/xml/validation/*:+javax/xml/ws/*:+javax/xml/ws/handler/*:+javax/xml/ws/handler/soap/*:+javax/xml/ws/http/*:+javax/xml/ws/soap/*:+javax/xml/ws/spi/*:+javax/xml/ws/spi/http/*:+javax/xml/ws/wsaddressing/*:+javax/xml/xpath/*:+org/ietf/jgss/*:+org/omg/CORBA/*:+org/omg/CORBA_2_3/*:+org/omg/CORBA_2_3/portable/*:+org/omg/CORBA/DynAnyPackage/*:+org/omg/CORBA/ORBPackage/*:+org/omg/CORBA/portable/*:+org/omg/CORBA/TypeCodePackage/*:+org/omg/CosNaming/*:+org/omg/CosNaming/NamingContextExtPackage/*:+org/omg/CosNaming/NamingContextPackage/*:+org/omg/Dynamic/*:+org/omg/DynamicAny/*:+org/omg/DynamicAny/DynAnyFactoryPackage/*:+org/omg/DynamicAny/DynAnyPackage/*:+org/omg/IOP/*:+org/omg/IOP/CodecFactoryPackage/*:+org/omg/IOP/CodecPackage/*:+org/omg/Messaging/*:+org/omg/PortableInterceptor/*:+org/omg/PortableInterceptor/ORBInitInfoPackage/*:+org/omg/PortableServer/*:+org/omg/PortableServer/CurrentPackage/*:+org/omg/PortableServer/POAManagerPackage/*:+org/omg/PortableServer/POAPackage/*:+org/omg/PortableServer/portable/*:+org/omg/PortableServer/ServantLocatorPackage/*:+org/omg/SendingContext/*:+org/omg/stub/java/rmi/*:+org/w3c/dom/*:+org/w3c/dom/bootstrap/*:+org/w3c/dom/css/*:+org/w3c/dom/events/*:+org/w3c/dom/html/*:+org/w3c/dom/ls/*:+org/w3c/dom/ranges/*:+org/w3c/dom/stylesheets/*:+org/w3c/dom/traversal/*:+org/w3c/dom/views/*:+org/w3c/dom/xpath/*:+org/xml/sax/*:+org/xml/sax/ext/*:+org/xml/sax/helpers/*:?**/*]
+[DEBUG] Using boot classpath: [Classpath for jar file /opt/oracle-jdk-bin-1.8.0.77/jre/lib/resources.jar, Classpath for jar file /opt/oracle-jdk-bin-1.8.0.77/jre/lib/rt.jar, Classpath for jar file /opt/oracle-jdk-bin-1.8.0.77/jre/lib/sunrsasign.jar, Classpath for jar file /opt/oracle-jdk-bin-1.8.0.77/jre/lib/jsse.jar, Classpath for jar file /opt/oracle-jdk-bin-1.8.0.77/jre/lib/jce.jar, Classpath for jar file /opt/oracle-jdk-bin-1.8.0.77/jre/lib/charsets.jar, Classpath for jar file /opt/oracle-jdk-bin-1.8.0.77/jre/lib/jfr.jar]

@@ -1,0 +1,4 @@
+source.. = src/,\
+ target/generated-sources/antlr/
+bin.includes = META-INF/,\
+               .

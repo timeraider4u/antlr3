@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.antlr.stringtemplate
+Bundle-SymbolicName: org.antlr.stringtemplate
+Bundle-Version: 3.5.3.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: org.antlr.stringtemplate,
+ org.antlr.stringtemplate.language,
+ org.antlr.stringtemplate.misc,
+ antlr,
+ antlr.actions.cpp,
+ antlr.actions.java,
+ antlr.collections,
+ antlr.collections.impl,
+ antlr.debug,
+ antlr.debug.misc,
+ antlr.preprocessor
