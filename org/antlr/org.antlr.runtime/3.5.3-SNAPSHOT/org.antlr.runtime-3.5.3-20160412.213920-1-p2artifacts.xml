@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='org.antlr.runtime' version='3.5.3.201604122139'>
+    <properties size='5'>
+      <property name='artifact.size' value='11255'/>
+      <property name='download.size' value='11255'/>
+      <property name='maven-groupId' value='org.antlr'/>
+      <property name='maven-artifactId' value='org.antlr.runtime'/>
+      <property name='maven-version' value='3.5.3-SNAPSHOT'/>
+    </properties>
+  </artifact>
+</artifacts>
