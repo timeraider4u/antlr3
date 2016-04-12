@@ -2,9 +2,9 @@
 <metadata>
   <plugins>
     <plugin>
-      <name>ANTLR 3 gUnit Maven plugin</name>
-      <prefix>gunit</prefix>
-      <artifactId>maven-gunit-plugin</artifactId>
+      <name>ANTLR 3 Maven plugin</name>
+      <prefix>antlr3</prefix>
+      <artifactId>antlr3-maven-plugin</artifactId>
     </plugin>
   </plugins>
 </metadata>
