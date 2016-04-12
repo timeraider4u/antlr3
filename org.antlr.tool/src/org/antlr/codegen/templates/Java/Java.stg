@@ -1115,20 +1115,14 @@ protected class DFA<dfa.decisionNumber> extends DFA {
 <if(dfa.specialStateSTs)>
 	@Override
 	public int specialStateTransition(int s, IntStream _input) throws NoViableAltException {
-		<if(LEXER)>
-		IntStream input = _input;
-		<endif>
-		<if(PARSER)>
-		TokenStream input = (TokenStream)_input;
-		<endif>
-		<if(TREE_PARSER)>
-		TreeNodeStream input = (TreeNodeStream)_input;
-		<endif>
 		int _s = s;
 		switch ( s ) {
 		<dfa.specialStateSTs:{state |
 		case <i0> : <! compressed special state numbers 0..n-1 !>
-			<state>}; separator="\n">
+			s = specialState<i0>(s, input);
+			if (s >= 0) return s;
+				break;
+		}; separator="\n">
 		}
 <if(backtracking)>
 		if (state.backtracking>0) {state.failed=true; return -1;}
@@ -1138,8 +1132,23 @@ protected class DFA<dfa.decisionNumber> extends DFA {
 		error(nvae);
 		throw nvae;
 	}
+	<dfa.specialStateSTs:{state |
+	private int specialState<i0>(int s, IntStream _input) {
+		<if(LEXER)>
+		IntStream input = _input;
+		<endif>
+		<if(PARSER)>
+			TokenStream input = (TokenStream)_input;
+		<endif>
+		<if(TREE_PARSER)>
+			TreeNodeStream input = (TreeNodeStream)_input;
+		<endif>
+		<state>
+	\}
+}; separator="\n">
 <endif>
 }
+
 >>
 
 /** A state in a cyclic DFA; it's a special state and part of a big switch on
@@ -1156,8 +1165,9 @@ s = -1;
 <if(semPredState)> <! return input cursor to state before we rewound !>
 input.seek(index<decisionNumber>_<stateNumber>);
 <endif>
-if ( s>=0 ) return s;
-break;
+//if ( s>=0 ) return s;
+//break;
+return s;
 >>
 
 /** Just like a fixed DFA edge, test the lookahead and indicate what
